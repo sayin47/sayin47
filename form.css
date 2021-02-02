@@ -1,0 +1,154 @@
+
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2014/09/21/14/35/surface-455120_960_720.jpg);
+
+   background-size:cover;
+}
+
+
+
+
+
+
+.header{
+    display:flex;
+    flex-direction: column;
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/24/16/29/keyboard-4876716_960_720.jpg)  ;
+    background-size:cover;
+    font-weight: 900;
+    text-align:center;
+    border-radius: 10px;
+    font-size: 25px;
+    border-bottom: #e8491d 3px solid;
+    opacity:1;
+    background-repeat: no-repeat;
+    margin:0px 13% 5px 13%;
+    
+
+}
+@media (min-width: 768px) {
+    .container {
+      max-width: 1300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin:2% 12% 5% 12%;
+    }
+  }
+  
+
+
+
+#title{
+    
+   padding: 10px 50px 10px 50px ;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 10px;
+   margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  color: black;
+}
+#description{
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 0.6;
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid black;
+    color:rgb(14, 13, 13);
+    
+}
+.survey-form{
+    display:flex;
+    margin-top: 10px;
+    flex-direction: column;
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/17/14/03/sail-5662223_960_720.jpg);
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px 13% 5px 13%;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    padding:15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+} 
+.age{
+    display: flex;
+    flex-direction: column;
+}
+#number1{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+#dropdown{
+    display:flex;
+    flex-direction: column;
+}
+#sports{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.text-suggestion{
+
+    display: flex;
+    flex-direction: column;
+}
+#text{
+
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+
+
+#submit1{
+    display: flex;
+    display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+    
+    
+    
+}
+
+
+
+
+
